@@ -473,7 +473,3 @@ Use of this tool for attacking targets **without prior mutual consent** is **ill
 
 ⚡ Cyberpunk Penetration Testing Arsenal ⚡
 ```
-
-**Made with 💜 for the ethical hacking community**
-
-**Stay legal. Stay ethical. Stay cyberpunk. 🌃**
