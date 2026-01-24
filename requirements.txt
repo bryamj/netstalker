@@ -1,0 +1,13 @@
+# NETSTALKER Python Dependencies
+
+# Core dependencies
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Note: Most tools are system packages installed via apt/brew
+# See README.md for full installation instructions
+# Run: python voidwalker.py --setup-full
+
+# The following are optional for enhanced features:
+# colorama>=0.4.6  # Enhanced color support (optional)
+# tqdm>=4.66.0     # Progress bars (optional)
