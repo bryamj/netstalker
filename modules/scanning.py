@@ -326,9 +326,26 @@ class Scanner:
                 port_range = rustscan_args[i + 1]
                 break
 
+        # Filter out arguments that are already handled by rustscan() method parameters
+        # to avoid duplicates (--ulimit, -b/batch size, --timeout are set via method params)
+        filtered_args = []
+        skip_next = False
+        for i, arg in enumerate(rustscan_args):
+            if skip_next:
+                skip_next = False
+                continue
+            # Skip arguments that are handled by method parameters
+            if arg in ["--range", "-p", "--ulimit", "-b", "--timeout"]:
+                skip_next = True  # Skip this arg and its value
+                continue
+            # Skip port range value
+            if arg == port_range:
+                continue
+            filtered_args.append(arg)
+
         open_ports, rs_result = self.rustscan(
             ports=port_range,
-            additional_args=[a for a in rustscan_args if a not in ["--range", "-p", port_range]]
+            additional_args=filtered_args if filtered_args else None
         )
         results.append(rs_result)
 
