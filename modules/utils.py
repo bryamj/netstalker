@@ -92,13 +92,6 @@ def print_banner():
 {Colors.MUTED}[ {Colors.IRIS}Ethical Hacking Framework {Colors.MUTED}• {Colors.FOAM}Rose Pine Themed {Colors.MUTED}• {Colors.GOLD}v2.0 CYBER {Colors.MUTED}]{Colors.RESET}
 """
     print(banner)
-║                                                              ║
-║   Automated Penetration Testing Framework                    ║
-║   For Authorized Security Assessments Only                   ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝{Colors.RESET}
-"""
-    print(banner)
 
 
 def print_section(title: str, char: str = "═"):
