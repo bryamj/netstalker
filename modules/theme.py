@@ -44,6 +44,12 @@ class RosePine:
     GRAY = MUTED
     DARK_CYAN = PINE
 
+    # Standard ANSI color compatibility
+    CYAN = FOAM
+    RED = LOVE
+    GREEN = PINE
+    BLUE = IRIS
+
     # Control codes
     RESET = "\033[0m"
     BOLD = "\033[1m"
